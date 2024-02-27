@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: gop-fileserver
+  name: gop-file-server
   labels:
-    app: gop-fileserver
+    app: gop-file-server
 spec:
   volumes:
     - name: data-store
