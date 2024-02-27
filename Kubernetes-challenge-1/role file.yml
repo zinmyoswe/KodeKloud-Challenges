@@ -11,7 +11,7 @@ rules:
   resources: ["pods"]
   verbs: ["*"]
 - apiGroups: [""]
-  resources: ["persistentVolumeClaims"]
+  resources: ["persistentvolumeclaims"]
   verbs: ["*"]
 
 ---
